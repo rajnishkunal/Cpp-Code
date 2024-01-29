@@ -20,9 +20,9 @@ Node* createTree()
         return NULL;
 
     Node *newNode=new Node(data);
-    cout<<"Enter left data for child (-1 for no child)"<<data<<endl;
+    cout<<"Enter left data for child (-1 for no child) "<<data<<endl;
     newNode ->left= createTree();
-    cout<<"Enter right data for child (-1 for no child)"<<data<<endl;
+    cout<<"Enter right data for child (-1 for no child) "<<data<<endl;
     newNode ->right= createTree();
 
     return newNode;
